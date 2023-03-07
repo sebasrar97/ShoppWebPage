@@ -142,7 +142,8 @@ body{
 
 .cta{
     display: inline-block;
-    background-color: #ffbf10;
+    transition: all 400ms ease;
+    background-color: #dea509;
     font-size: 1rem;
     color: #fff;
     text-decoration: none;
@@ -181,6 +182,7 @@ body{
 
 .cta11{
     display: inline-block;
+    transition: all 400ms ease;
     background-color: #ffbf10;
     font-size: 1rem;
     color: #fff;
@@ -319,7 +321,7 @@ background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #f7e
 }
 
 .price__name{
-    color: #5454d4;
+    color: #4a4aff;
     margin-bottom: 15px;
     font-weight: 900;
     font-size: 350%;
@@ -808,7 +810,8 @@ background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #f7e
 
 .cta11{
     display: inline-block;
-    background-color: #ffbf10;
+    background-color: #dea509;
+    transition: all 400ms ease;
     font-size: 1rem;
     color: #fff;
     text-decoration: none;
