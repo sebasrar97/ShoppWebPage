@@ -37,7 +37,7 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(180deg, #000000bc 0%,#0000008c 100%), url(../Recursos/Market.jpg);
+    background-image: linear-gradient(180deg, #000000bc 0%,#0000008c 100%), url(../Recursos/Market.webp);
     background-size: cover;
     clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
     z-index: -1;
@@ -142,11 +142,10 @@ body{
 
 .cta{
     display: inline-block;
-    background-color: #eab31b;
+    background-color: #ffbf10;
     font-size: 1rem;
     color: #fff;
     text-decoration: none;
-    transition: all 400ms ease;
     justify-self: center;
     padding: 13px 30px;
     border-radius: 40px;
@@ -175,6 +174,25 @@ body{
 .cta2:hover{
 
     background: #dca100;
+    color: #fff ;
+    box-shadow: 5px 5px 10px #0000007f;
+    transform: translateY(-3%);
+}
+
+.cta11{
+    display: inline-block;
+    background-color: #ffbf10;
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;
+    justify-self: center;
+    padding: 13px 30px;
+    border-radius: 40px;
+}
+
+.cta11:hover{
+
+    background: #fb173c;
     color: #fff ;
     box-shadow: 5px 5px 10px #0000007f;
     transform: translateY(-3%);
@@ -285,7 +303,7 @@ background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #f7e
 .price__element:hover{
     
     transition: all 400ms ease;
-    box-shadow: 5px 5px 20px #0000007f;
+    box-shadow: 5px 5px 20px #00000067;
     transform: translateY(-3%);
 }
 
@@ -301,9 +319,17 @@ background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #f7e
 }
 
 .price__name{
-    color: var(--color-plan);
+    color: #5454d4;
     margin-bottom: 15px;
-    font-weight: 300;
+    font-weight: 900;
+    font-size: 350%;
+}
+
+.price__name1{
+    color: #fff;
+    margin-bottom: 15px;
+    font-weight: 900;
+    font-size: 350%;
 }
 
 .price__price{
@@ -777,6 +803,27 @@ background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #f7e
 .cta{
     margin-right: 40px;
     scale: 85%;
+    
+}
+
+.cta11{
+    display: inline-block;
+    background-color: #ffbf10;
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;
+    justify-self: center;
+    padding: 13px 30px;
+    border-radius: 40px;
+    scale: 85%;
+}
+
+.cta11:hover{
+
+    background: #fb173c;
+    color: #fff ;
+    box-shadow: 5px 5px 10px #0000007f;
+    transform: translateY(-3%);
 }
 
 .knowledge__img{
