@@ -32,6 +32,7 @@ body{
 
 .hero::before{
     content: "";
+    background-attachment: fixed;
     position: absolute;
     top: 0;
     left: 0;
@@ -413,6 +414,7 @@ background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #f7e
 /* testimony */
 
 .testimony{
+    background-attachment: fixed;
     background-image: url(../Recursos/Port2.jpg);
     background-size: cover;
     background-position: center;
